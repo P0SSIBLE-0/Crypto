@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.text-xl{
+    font-size: 36px;
+}
+.text-l{
+    font-size: 23px;
+}
+.text-m{
+    font-size: 16px;
+}
+.text-s{
+    font-size: 12px;
+}
+.m-4{
+    margin: 14px;
+}
+.m-auto{
+    margin: auto;
+}
+.p-4{
+    padding: 14px;
+}
