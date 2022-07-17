@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoLand</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/utilites.css">
-    <script src="http://kit.fontawesome.com/e9ebdf519f.js" crossorigin="anonymous"></script>
-    <title>CryptoLand</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -46,7 +47,7 @@
     </div>
     <img class="hero-shape" src="./Images/hero-shape.svg" alt="" width="100vw" height="50px">
     <div class="container-1">
-        <div class="center">
+        <div class="center" data-aos-once="true" data-aos="fade-up"  data-aos-duration="900">
             <p>Why Choose Us</p>
             <h2>Our Features</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
@@ -54,21 +55,21 @@
         </div>
         <div class=" cards flex justify-center">
             <div class="features flex ">
-                <section class="feature-1 flex flex-col align-center">
+                <section class="feature-1 flex flex-col align-center" data-aos-duration="900" data-aos-once="true" data-aos="fade-up">
                     <img src="./Images/feature-icon-1.png" alt="feature-1" width="160px">
                     <h2>Instant Exchage</h2>
                     <p>Invest in Bitcoin on the regular or save with</p>
                     <p>one of the highest interest rates on the</p>
                     <p>market.</p>
                 </section>
-                <section class="feature-2 flex flex-col align-center">
+                <section class="feature-2 flex flex-col align-center" data-aos-duration="900" data-aos-once="true" data-aos="fade-up" data-aos-delay="100">
                     <img src="./Images/feature-icon-2.png" alt="feature-2" width="160px">
                     <h2>Safe & Secure</h2>
                     <p>Invest in Bitcoin on the regular or save with</p>
                     <p>one of the highest interest rates on the</p>
                     <p>market.</p>
                 </section>
-                <section class="feature-3 flex flex-col align-center">
+                <section class="feature-3 flex flex-col align-center" data-aos-duration="900" data-aos-once="true" data-aos="fade-up" data-aos-delay="200">
                     <img src="./Images/feature-icon-3.png" alt="feature-3" width="160px">
                     <h2>Instant Trading</h2>
                     <p>Invest in Bitcoin on the regular or save with</p>
@@ -79,7 +80,7 @@
         </div>
     </div>
     <div class="container-2 p-4">
-        <div class="center">
+        <div class="center" data-aos-once="true" data-aos="fade-up"  data-aos-duration="800" >
             <p>Ready To Get Started?</p>
             <h2>3 Steps To Start</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
@@ -120,7 +121,7 @@
     </div>
     <div class="intro">
         <div class="background-blue"></div>
-        <div class="intro-video">
+        <div class="intro-video" data-aos-once="true" data-aos="fade-right"  data-aos-duration="1000" >
             <img class="shape-2" src="./Images/shape2.svg" alt="" height="70px">
             <p>Create your own experience</p>
             <h1>Watch Our Intro Video</h1>
@@ -131,14 +132,14 @@
         </div>
     </div>
     <div class="container-3">
-        <div class="center">
+        <div class="center" data-aos-once="true" data-aos="fade-up"  data-aos-duration="1000" >
             <p>Blogs</p>
             <h2>Our Latest News</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
             <p>suffered alteration in some form.</p>
         </div>
         <div class="section-blog">
-            <div class="blog flex flex-col">
+            <div class="blog flex flex-col" data-aos-duration="900" data-aos-once="true" data-aos="fade-up" data-aos-delay="100">
                 <img src="./Images/blog-1.png" alt="blog-1">
                 <div class="flex m-auto">
                     <aside style="margin-right: 27px; margin-top: 25px; font-size: 15px; color: slategray; ">
@@ -156,7 +157,7 @@
                     <a href="#">Read More</a>
                 </div>
             </div>
-            <div class="blog flex flex-col">
+            <div class="blog flex flex-col" data-aos-duration="900" data-aos-once="true" data-aos="fade-up" data-aos-delay="200">
                 <img src="./Images/blog-2.png" alt="blog-1">
                 <div class="flex m-auto">
                     <aside style="margin-right: 27px; margin-top: 25px; font-size: 15px; color: slategray; ">
@@ -174,7 +175,7 @@
                     <a href="#">Read More</a>
                 </div>
             </div>
-            <div class="blog flex flex-col">
+            <div class="blog flex flex-col" data-aos-duration="900" data-aos-once="true" data-aos="fade-up" data-aos-delay="300">
                 <img src="./Images/blog-3.png" alt="blog-1">
                 <div class="flex m-auto">
                     <aside style="margin-right: 27px; margin-top: 25px; font-size: 15px; color: slategray; ">
@@ -302,6 +303,8 @@
             </div>
         </div>
     </footer>
+    <script src="http://kit.fontawesome.com/e9ebdf519f.js" crossorigin="anonymous"></script>
+
     <script>
         let hamburger = document.querySelector('.hamburger');
         let navmenu = document.querySelector('.nav-menu');
@@ -312,6 +315,10 @@
             navmenu.classList.toggle("active")
             navbar.classList.toggle("active")
         })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </html>
