@@ -722,7 +722,7 @@ header {
   .footer{
     background-color: #24126a;
     padding: 20px;
-    height: 1150px;
+    height: 1050px;
     flex-direction: column;
     align-items: center;
   }
